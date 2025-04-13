@@ -1,0 +1,13 @@
+.home-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  min-height: 100vh;
+  background-color: #141320;
+}
+
+@media (max-width: 768px) {
+  .home-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

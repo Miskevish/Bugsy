@@ -1,0 +1,66 @@
+.imagen-bugsy {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.bugsy-side {
+  background-color: #1d1b30;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+}
+
+
+.bugsy-bubble {
+  background-color: #2d2c40;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+  .bugsy-side {
+    width: 100% !important;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bugsy-side {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bugsy-side {
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .imagen-bugsy {
+    width: 160px;
+  }
+
+  .bugsy-bubble {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imagen-bugsy {
+    width: 140px;
+  }
+
+  .bugsy-bubble {
+    font-size: 0.75rem;
+  }
+}
